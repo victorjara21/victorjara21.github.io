@@ -1,23 +1,29 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mi Página Web</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      background-color: #f0f0f0;
-      padding: 50px;
-    }
-    h1 {
-      color: #333;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mist - Mapa del Corredor Bioceánico</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>¡Hola, soy Victor!</h1>
-  <p>Bienvenido a mi primera página en GitHub Pages 🎉</p>
+  <header>
+    <h1>🗺️ Mist - Corredor Bioceánico</h1>
+    <select id="filter">
+      <option value="all">Todos</option>
+      <option value="Combustible">Combustible</option>
+      <option value="Comida">Comida</option>
+      <option value="Taller">Taller</option>
+      <option value="Descanso">Descanso</option>
+    </select>
+  </header>
+
+  <div id="map"></div>
+
+  <footer>© 2025 Mist Project - Corredor Bioceánico</footer>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>

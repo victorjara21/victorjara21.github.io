@@ -1,0 +1,34 @@
+[
+  {
+    "name": "YPF Abra Pampa",
+    "category": "Combustible",
+    "description": "Estación de servicio con tienda y baños.",
+    "address": "Ruta Nacional 9, Abra Pampa, Jujuy",
+    "lat": -22.7167,
+    "lng": -65.7
+  },
+  {
+    "name": "Restaurante El Caminante",
+    "category": "Comida",
+    "description": "Restaurante familiar con menú casero.",
+    "address": "RN9, Humahuaca, Jujuy",
+    "lat": -23.2,
+    "lng": -65.35
+  },
+  {
+    "name": "Taller Don Pepe",
+    "category": "Taller",
+    "description": "Reparación de camiones y autos.",
+    "address": "Tilcara, Jujuy",
+    "lat": -23.57,
+    "lng": -65.39
+  },
+  {
+    "name": "Área de descanso Purmamarca",
+    "category": "Descanso",
+    "description": "Zona segura para estacionar y descansar.",
+    "address": "Purmamarca, Jujuy",
+    "lat": -23.74,
+    "lng": -65.5
+  }
+]
